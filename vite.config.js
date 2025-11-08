@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// Sesuaikan nama repo
 export default defineConfig({
+  base: '/Bot_Master/', 
   plugins: [react()],
 })
