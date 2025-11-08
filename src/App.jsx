@@ -6,7 +6,7 @@ import Home from './layouts/Home';
 function App() {
   return (
     <>
-      <nav style={{ padding: "10px"}}>
+      <nav style={{ padding: "10px" }}>
         <div className="icon">
           <h2>BOT&nbsp;<span>Master</span></h2>
         </div>
@@ -14,10 +14,9 @@ function App() {
           <Link to="/" className="Link" style={{ marginRight: "10px" }}>Home</Link>
         </div>
         <div className="menu2">
-            <p>Login</p>
+          <p>Login</p>
         </div>
       </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
